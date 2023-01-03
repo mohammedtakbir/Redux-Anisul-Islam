@@ -18,7 +18,7 @@ const incrementAction = (user) => {
 const decrementAction = () => {
     return {
         type: DECREMENT
-    }
+    } 
 }
 
 const counterReducer = (state = initialState, action) => {
